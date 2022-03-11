@@ -384,15 +384,17 @@ template {
 /* @HOME */
 /* ********* */
 body {
-  background-color: #775096;
+  background-color: #9d7ab9;
 }
 
 .contenedor {
   height: 100vh;
+  max-height: 800px;
   max-width: 1366px;
   margin: 0 auto;
-  background: url(../assets/img/desktop/chica_guitarra.jpg) no-repeat right top, url(../assets/img/desktop/hojas.jpg) no-repeat left 80%, url(../assets/img/desktop/lineas.jpg) no-repeat left top, #5D3E75;
-  background-size: 50%, 15%, 10%;
+  background: url(../assets/img/desktop/chica_guitarra.jpg) no-repeat right top, url(../assets/img/desktop/hojas.jpg) no-repeat left 80%, url(../assets/img/desktop/lineas.jpg) no-repeat left top, -webkit-gradient(linear, right top, left top, from(#5D3E75), to(#573E75));
+  background: url(../assets/img/desktop/chica_guitarra.jpg) no-repeat right top, url(../assets/img/desktop/hojas.jpg) no-repeat left 80%, url(../assets/img/desktop/lineas.jpg) no-repeat left top, linear-gradient(to left, #5D3E75 0%, #573E75 100%);
+  background-size: contain, 12%, 10%;
 }
 
 /* ********* */
